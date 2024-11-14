@@ -240,7 +240,7 @@ header i {
 }
  
 .image {
-    width: 2500px;
+    width: 1500px;
 }
 
 .section-2-img {
@@ -299,7 +299,7 @@ header i {
 }
 
 .image1 {
-    width: 600px;
+    width: 500px;
     padding-left: 35px;
 }
 
@@ -398,6 +398,7 @@ header i {
     background-color: #111111;
     color: #fff;
     padding-top: 100px;
+   
 }
 
 .section-title {
