@@ -1,6 +1,130 @@
 @media (max-width:1280px) {
+  header {
+    width: 100%;
+  }
+
   main {
     width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
+
+@media (max-width:1024px) {
+  /* card-section */
+
+  .service-card-row-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card-row-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card {
+    margin-bottom: 25px;
+    width: 91.66%;
+  }
+
+  /* about-us-section  */
+  .content-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    width: 91.66%;
+  }
+  .paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .paragraph p {
+    width: 100%;
+  }
+
+  /* portfolio-section */
+  .report-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portfolio-img {
+    margin-bottom: 25px;
+    width: 91.66%;
+  }
+
+  /* video-section */
+  .video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video-img {
+    width: 83.33%;
+  }
+
+  /* customer-section */
+
+  .customer-review-card-row-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .customer-review-card-row-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .customer-review-card {
+    width: 91.66%;
+    margin-bottom: 25px;
+  }
+
+  /* form-section  */
+
+  .form-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .form-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-img {
+    margin-top: 30px;
+    width: 91.66%;
+  }
+
+  /* address-section */
+
+  .address-contact-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .address-card {
+    width: 91.66%;
   }
 }
 
@@ -120,8 +244,7 @@
   .content-about {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    justify-content: center;
   }
 
   .image {
@@ -132,11 +255,6 @@
     width: 100%;
   }
 
-  .paragraph p {
-    font-size: 18px;
-    text-align: justify;
-    margin-left: 150px;
-  }
 
   /* idea-plan-section */
   .ideas-plan-box {
@@ -171,6 +289,11 @@
 
   .form-img {
     margin-top: 25px;
+  }
+
+  /* address-section */
+  .location {
+    width: 90%;
   }
 
   /* footer-section  */
@@ -208,45 +331,45 @@
     width: 100%;
   }
 
-  .paragraph {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-  }
-
   .paragraph p {
     text-align: justify; 
   }
 
   /* idea-plan-section */
+  .ideas-plan-box {
+    width: 91.66%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+  }
+
   .hedding {
-    font-size: 40px;
+    width: 100%;
   }
 
   .para1 {
-    font-size: 16px;
-    width: 91.5%;
-    text-align: center;
+    font-size: 14px; 
   }
 
+ 
   .para2 {
-    text-align: start;
+    font-size: 12px; 
+  }
+
+  .image1 {
+    display: flex;
+    justify-content: center;
   }
 
   .section-3-img {
-    width: 83.33%;
+    width: 75%; 
   }
 
   /* video-section  */
 
-  .video-img {
-    width: 400px;
-  }
-
-  .section-4-img {
-    width: 100%;
-    margin-right: 40px;
-  }
+ .section-4-img {
+  width: 83.33%;
+ }
 
   /* form-section */
   .form-1 {
@@ -255,12 +378,10 @@
 
   /* address-section */
   .location {
-    width: 400px;
+    width: 83.33%;
   }
 
-  .ifrmae-map {
-    width: 100%;
-  }
+ 
 
   /* footer-section */
   .website-end {

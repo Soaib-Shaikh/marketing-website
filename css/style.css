@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 body {
@@ -237,6 +238,10 @@ header i {
     background-repeat: no-repeat;
     background-size: contain;
     padding:120px 0px 150px 0px;
+}
+
+.content-about {
+    width: 100%;
 }
  
 .image {
